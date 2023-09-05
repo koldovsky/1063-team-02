@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #e0e0e0;
+}
+
+/*-----------Header__Attention__Start-----------*/
+
+.header__attention {
+    max-width: 100%;
+    height: 48px;
+    margin: 0 auto;
+    background-color: #d60307;
+}
+
+.header__attention__message {
+    max-width: 1200px;
+    height: 48px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__message-item {
+    flex: 1;
+}
+
+.header__attention__email,
+.header__attention__phone,
+.header__attention__message {
+    color: white;
+    font-family: "PT Sans", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.header__attention__list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__attention__email,
+.header__attention__phone {
+    text-decoration: none;
+}
+
+.header__attention__email {
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1280px) {
+    .header__attention__message {
+        padding-right: 40px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .header__attention {
+        display: none;
+    }
+}
+
+.header__attention__message-text {
+    white-space: nowrap;
+    /* Забороняє перенос тексту на новий рядок */
+}
+
+@media screen and (max-width: 1280px) {
+    .header__attention__message-text {
+        margin-left: 40px;
+    }
+}
+
+
+/*-----------Header__Attention__End-----------*/
+
+/*----------Navbar__Start----------*/
+
+.header__navbar {
+    max-width: 100%;
+    height: 100px;
+    background-color: #222323;
+}
+
+.container {
+    width: 1200px;
+    height: 100%;
+    /* Виправлено висоту */
+
+    justify-content: space-between;
+    /* Розміщуємо елементи logo, navbar і social по обидва боки */
+    align-items: center;
+    /* Вирівнюємо вертикально по центру */
+    margin: 0 auto;
+    display: flex;
+}
+
+.header__logo {
+    width: 168px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+/*------------Navbar__Menu----------------*/
+
+.menu-list-item {
+    list-style: none;
+    margin-right: 25px;
+}
+
+.menu__list {
+    display: flex;
+}
+
+.menu__list-link {
+    text-decoration: none;
+}
+
+.menu__list-link-text {
+    text-decoration: none;
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+}
+
+.navbar__menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    /* Вирівнюємо по лівій стороні */
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+/* полоска під посиланнями */
+
+.menu__list-link {
+    font-family: "PT Sans", sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu__list-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: white;
+    transition: width 0.3s ease;
+    z-index: 1;
+}
+
+.menu__list-link:hover::before {
+    width: 100%;
+}
+
+
+/*----------Navbar__End----------*/
+
+
+/*------------Social__Start----------------*/
+
+.social-menu-item {
+    list-style: none;
+}
+
+.social-menu-list {
+    display: flex;
+}
+
+/*------------Social__End----------------*/
+
+
+
+
+/*----------Header__Banner__Start----------*/
+
+img {
+    width: 100%;
+    /* 100% ширини від батьківського контейнера*/
+}
+
+.header__banner__image {
+    background-image: url("img/main__banner.jpeg");
+    background-size: cover;
+    /* розмір малюнка при виведенні на фон */
+    background-repeat: no-repeat;
+    /* заборонити повторювання малюнка */
+}
+
+.header__banner {
+    max-width: 1200px;
+    /* Максимальна ширина контейнера */
+    height: 408px;
+    margin: 0 auto;
+    /* Вирівнювання по центру */
+    position: relative;
+    /* Встановлюємо відносне позиціонування для внутрішніх елементів */
+}
+
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('fonts/bebasneuebold.woff2') format('woff2'),
+        /* Підтримка сучасних браузерів */
+        url('fonts/bebasneue.css') format('woff');
+    /* Підтримка старіших браузерів */
+    /
+}
+
+
+.new-collections__text__small {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #22232375;
+}
+
+
+
+.new-collections__text__large {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 124px;
+    font-weight: bold;
+    color: #222323;
+}
+
+.new-collections__othercolor {
+    color: #F40106;
+}
+
+
+
+
+
+/*----------Header__Banner__End----------*/
