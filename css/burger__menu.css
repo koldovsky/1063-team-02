@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  max-width: 100%;
+  background-color: #222323;
+}
+
+.burger__menu {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 40px;
+}
+
+.burger__menu__logo {
+  width: 168px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.burger__menu__button {
+  color: white;
+  font-weight: bold;
+}
+
+.burger__menu__head {
+  max-width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.burger__menu__list,
+.burger__menu__attention__message-text,
+.burger__menu__attention__list {
+  text-align: center;
+  margin-bottom: 25px;
+  list-style: none;
+}
+
+.burger__menu__list-item,
+.burger__menu__attention__contact {
+  margin-bottom: 25px;
+}
+
+.burger__menu__list-link-text,
+.burger__menu__attention__message-text,
+.burger__menu__attention__email,
+.burger__menu__attention__phone {
+  text-decoration: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  position: relative;
+}
