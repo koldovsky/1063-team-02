@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --main-text-color: #222323;
+    --secondary-text-color: #22232375;
+    --extra-text-color: white;
+    --accent-text-color: #d60307;
+}
