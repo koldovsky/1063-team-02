@@ -1,0 +1,13 @@
+.show__new-collections__button {
+  text-decoration: none;
+  cursor: pointer;
+  background-color: var(--ui-brand-color);
+  font-family: var(--font-primary);
+  font-size: 16.5px;
+  color: var(--ui-light-shade-color);
+  padding: 20px 20px;
+}
+
+.show__new-collections__button:hover {
+  background-color: black;
+}
