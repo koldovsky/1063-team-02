@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 
 * {
     padding: 0px;
@@ -8,11 +8,12 @@
 }
 
 :root {
-    --font-primary: 'PT Sans', sans-serif;
-    --font-secondary: 'Bebas Neue', sans-serif;
+    --font-primary: "PT Sans", sans-serif;
+    --font-secondary: "Bebas Neue", sans-serif;
     --ui-light-shade-color: #fff;
     --ui-light-accent-color: #e0e0e0;
     --ui-brand-color: #f40106;
+    --ui-dark-brand-color: rgb(214, 3, 7);
     --ui-dark-accent-color: #9b9b9b;
     --ui-dark-shade-color: #222323;
 }
