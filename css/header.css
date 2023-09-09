@@ -17,6 +17,7 @@
 
 .container {
   background-color: var(---ui-dark-shade-color);
+  font-family: var(--font-primary);
   font-size: 16px;
   color: var(--ui-light-shade-color);
 }
@@ -26,33 +27,27 @@
 
 .header__banner-text,
 .new-collections__text__large {
-  font-family: var(---font-secondary);
+  font-family: var(--font-secondary);
   font-size: 124px;
   color: var(--ui-dark-shade-color);
 }
 
 .new-collections__othercolor {
-  font-family: var(---font-secondary);
+  font-family: var(--font-secondary);
   font-size: 124px;
   color: var(--ui-brand-color);
 }
 
-
 .new-collections__text__small {
-  font-family: var(---font-secondary);
+  font-family: var(--font-secondary);
   font-size: 24px;
   color: var(--ui-dark-accent-color);
 }
 
-.new-collections__square{
-    font-size: 24px;
-    color: var(--ui-brand-color);
+.new-collections__square {
+  font-size: 24px;
+  color: var(--ui-brand-color);
 }
 
-.show__button,
-.show__arrow {
-  font-family: var(--font-primary);
-  font-size: 16.5px;
-  color: var(--ui-light-shade-color);
-}
+
 /*----------Header__Banner__End----------*/
