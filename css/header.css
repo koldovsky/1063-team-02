@@ -1,60 +1,44 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-body {
-    background-color: #e0e0e0;
-}
-
 /*-----------Header__Attention__Start-----------*/
-
 .header__attention {
-    max-width: 100%;
-    height: 48px;
-    margin: 0 auto;
-    background-color: #d60307;
-}
-
-.header__attention__message {
-    max-width: 1200px;
-    height: 48px;
-    margin: 0 auto;
+    background-color: var(--ui-dark-brand-color);
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
-.header__message-item {
-    flex: 1;
-}
-
+.header__attention__message-text,
 .header__attention__email,
-.header__attention__phone,
-.header__attention__message {
-    color: white;
-    font-family: "PT Sans", sans-serif;
+.header__attention__phone {
+    font-family: var(--font-primary);
     font-size: 14px;
     font-weight: bold;
+    color: var(--ui-light-shade-color);
+    text-decoration: none;
 }
 
 .header__attention__list {
     list-style: none;
     display: flex;
-    justify-content: flex-end;
 }
 
-.header__attention__email,
-.header__attention__phone {
-    text-decoration: none;
+.header__attention__list a {
+    display: block;
+    padding: 16px;
 }
 
-.header__attention__email {
-    margin-right: 20px;
+.header__attention__message {
+    width: 1200px;
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
 }
 
 @media screen and (max-width: 1280px) {
-    .header__attention__message {
+    .header__attention-message {
         padding-right: 40px;
     }
 }
@@ -67,37 +51,19 @@ body {
 
 .header__attention__message-text {
     white-space: nowrap;
-    /* Забороняє перенос тексту на новий рядок */
 }
-
-@media screen and (max-width: 1280px) {
-    .header__attention__message-text {
-        margin-left: 40px;
-    }
-}
-
 
 /*-----------Header__Attention__End-----------*/
 
 /*----------Navbar__Start----------*/
 
 .header__navbar {
-    max-width: 100%;
-    height: 100px;
-    background-color: #222323;
-}
-
-.container {
-    width: 1200px;
-    height: 100%;
-    /* Виправлено висоту */
-
-    justify-content: space-between;
-    /* Розміщуємо елементи logo, navbar і social по обидва боки */
-    align-items: center;
-    /* Вирівнюємо вертикально по центру */
-    margin: 0 auto;
+    background-color: var(--ui-dark-shade-color);
     display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 16px;
+    padding-right: 16px;
 }
 
 .header__logo {
@@ -107,50 +73,53 @@ body {
     align-items: center;
 }
 
-/*------------Navbar__Menu----------------*/
+.container {
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    justify-content: space-between;
+}
 
-.menu-list-item {
+.navbar__menu,
+.social-menu {
+    font-family: var(--font-primary);
+    font-size: 16px;
+    color: var(--ui-light-shade-color);
+}
+
+.menu__list-link {
+    color: var(--ui-light-shade-color);
+    font-size: 16px;
     list-style: none;
-    margin-right: 25px;
+    text-decoration: none;
+    position: relative;
+    font-weight: bold;
+}
+
+.menu__list,
+.social-menu-list {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
 }
 
 .menu__list {
-    display: flex;
+    margin-left: 40px;
 }
 
-.menu__list-link {
-    text-decoration: none;
+.menu__list a {
+    display: block;
+    margin: 16px;
 }
 
-.menu__list-link-text {
-    text-decoration: none;
-    font-family: "PT Sans", sans-serif;
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
-    position: relative;
+.social-menu-list a {
+    display: block;
+    padding: 8px;
 }
 
-.navbar__menu {
-    list-style: none;
-    display: flex;
-    justify-content: flex-start;
-    /* Вирівнюємо по лівій стороні */
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-
-/* полоска під посиланнями */
-
-.menu__list-link {
-    font-family: "PT Sans", sans-serif;
-    font-size: 16px;
-    color: white;
-    font-weight: bold;
-    position: relative;
-    text-decoration: none;
-}
+/*---------- bar under links------------ */
 
 .menu__list-link::before {
     content: "";
@@ -168,83 +137,102 @@ body {
     width: 100%;
 }
 
+.header__banner {
+    background-image: url(../img/header/main__banner.jpeg);
+    background-size: cover;
+    min-height: 400px;
+    background-position: center;
+}
 
 /*----------Navbar__End----------*/
 
+/*----------Header__Banner__Start----------*/
 
-/*------------Social__Start----------------*/
-
-.social-menu-item {
-    list-style: none;
+.header__banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.social-menu-list {
+.header__banner__area {
+    width: 1200px;
+    height: 828px;
     display: flex;
 }
 
-/*------------Social__End----------------*/
-
-
-
-
-/*----------Header__Banner__Start----------*/
-
-img {
-    width: 100%;
-    /* 100% ширини від батьківського контейнера*/
+.header__banner-text,
+.new-collections__text__large {
+    font-family: var(--font-secondary);
+    font-size: 124px;
+    color: var(--ui-dark-shade-color);
 }
 
-.header__banner__image {
-    background-image: url("img/main__banner.jpeg");
-    background-size: cover;
-    /* розмір малюнка при виведенні на фон */
-    background-repeat: no-repeat;
-    /* заборонити повторювання малюнка */
+.header__banner-text,
+.new-collections__othercolor {
+    font-family: var(--font-secondary);
+    font-size: 124px;
+    color: var(--ui-brand-color);
 }
-
-.header__banner {
-    max-width: 1200px;
-    /* Максимальна ширина контейнера */
-    height: 408px;
-    margin: 0 auto;
-    /* Вирівнювання по центру */
-    position: relative;
-    /* Встановлюємо відносне позиціонування для внутрішніх елементів */
-}
-
-
-@font-face {
-    font-family: 'Bebas Neue';
-    src: url('fonts/bebasneuebold.woff2') format('woff2'),
-        /* Підтримка сучасних браузерів */
-        url('fonts/bebasneue.css') format('woff');
-    /* Підтримка старіших браузерів */
-    /
-}
-
 
 .new-collections__text__small {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: var(--font-secondary);
     font-size: 24px;
-    font-weight: bold;
-    color: #22232375;
+    color: var(--ui-dark-accent-color);
 }
 
-
-
-.new-collections__text__large {
-    font-family: 'Bebas Neue', sans-serif;
-    font-size: 124px;
-    font-weight: bold;
-    color: #222323;
+.new-collections__square {
+    font-size: 24px;
+    color: var(--ui-brand-color);
 }
-
-.new-collections__othercolor {
-    color: #F40106;
-}
-
-
-
-
 
 /*----------Header__Banner__End----------*/
+
+/*----------Burger__Start----------*/
+.navbar__button {
+    display: none;
+    text-decoration: none;
+    text-align: right;
+    position: relative;
+}
+
+@media (max-width: 992px) {
+    .navbar__button {
+        font-size: 32px;
+        padding-inline: 10px;
+        padding-bottom: 2px;
+        border: none;
+        background-color: var(--ui-dark-shade-color);
+        color: var(--ui-light-shade-color);
+        display: block;
+        cursor: pointer;
+    }
+
+    .menu__list,
+    .social-menu-list {
+        display: none;
+    }
+
+    .header__navbar:hover {
+        background-color: var(header__navbar);
+    }
+
+    .container {
+        justify-content: space-between;
+    }
+
+    .container:hover .menu__list {
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        top: 100px;
+        right: 1px;
+        background-color: var(--ui-dark-shade-color);
+    }
+
+    .navbar__button:hover {
+        color: var(--ui-dark-accent-color);
+    }
+}
+
+/*----------Burger__End----------*/
