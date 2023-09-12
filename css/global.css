@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
 * {
     padding: 0px;
@@ -8,12 +10,33 @@
 }
 
 :root {
+    scroll-behavior: smooth;
     --font-primary: "PT Sans", sans-serif;
     --font-secondary: "Bebas Neue", sans-serif;
+    --font-first-additional: "Roboto", sans-serif;
+    --font-additional: "Google Sans", sans-serif;
     --ui-light-shade-color: #fff;
     --ui-light-accent-color: #e0e0e0;
     --ui-brand-color: #f40106;
-    --ui-dark-brand-color: rgb(214, 3, 7);
+    --ui-dark-brand-color: #D60307;
     --ui-dark-accent-color: #9b9b9b;
     --ui-dark-shade-color: #222323;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title-dash {
+    /* gray title dash styles */
+}
+
+.title-point {
+    /* red dot styles */
 }

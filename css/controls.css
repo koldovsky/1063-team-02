@@ -1,3 +1,12 @@
+.add-to-cart__button {
+  /* add to cart button styles */
+}
+
+.show-now__button {
+  /* shop now button styles */
+}
+
+/* move styles below to personal css file */
 .shop__new-collections__button {
   text-decoration: none;
   cursor: pointer;
@@ -6,8 +15,6 @@
   font-size: 16.5px;
   color: var(--ui-light-shade-color);
   padding: 15px 25px;
-  
-
 }
 
 .shop__new-collections__button:hover {
