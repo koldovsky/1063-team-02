@@ -1,0 +1,111 @@
+.promotion {
+    height: 1000px;
+    width: 100%;
+}
+
+.promotion__items {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.promotion-item__new-arrivals {
+    background-image: url(/img/promotion-items/man-with-shoe.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30%;
+    width: 100%;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.promotion-item__trainers {
+    background-image: url(/img/promotion-items/trainers.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30%;
+    width: 100%;
+    position: relative;
+}
+
+.promotion-item__hot-sale {
+    background-image: url(/img/promotion-items/hot-sale.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 30%;
+    width: 100%;
+    margin-top: 50px;
+    position: relative;
+}
+
+.apromotion-item__title {
+    color: var(--ui-light-shade-color);
+    font: var(--font-secondary);
+    font-family: sans-serif;
+    font-size: 38px;
+}
+
+.promotion-item__span {
+    color: var(--ui-brand-color);
+}
+
+.promotion-item__separator {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    height: 3px;
+    width: 250px;
+    background-color: var(--ui-brand-color);
+}
+
+.promotion-item__link {
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.promotion-item__text-block {
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+@media (min-width: 768px) {
+    .promotion{
+        height: 500px;
+    }
+    .promotion__items {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .promotion-item__new-arrivals {
+        width: 30%;
+        height: 40%;
+        margin-bottom: 0;
+    }
+
+    .promotion-item__trainers {
+        width: 20%;
+        height: 40%;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .promotion-item__hot-sale {
+        width: 20%;
+        height: 40%;
+        margin-top: 0;
+    }
+}
