@@ -1,4 +1,4 @@
-.show__new-collections__button {
+.shop__new-collections__button {
   text-decoration: none;
   cursor: pointer;
   background-color: var(--ui-brand-color);
@@ -10,6 +10,6 @@
 
 }
 
-.show__new-collections__button:hover {
+.shop__new-collections__button:hover {
   background-color: black;
 }
