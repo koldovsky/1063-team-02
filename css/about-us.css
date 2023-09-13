@@ -23,8 +23,8 @@
 .about-us__separator {
     margin-top: 15px;
     margin-bottom: 15px;
-    height: 3px;
-    width: 100px;
+    height: 2px;
+    width: 80px;
     background-color: var(--ui-brand-color);
 }
 

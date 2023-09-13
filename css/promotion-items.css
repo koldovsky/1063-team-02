@@ -6,7 +6,6 @@
 .promotion__items {
     display: flex;
     flex-direction: column;
-    width: 100%;
     height: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -22,6 +21,7 @@
     width: 100%;
     margin-bottom: 50px;
     position: relative;
+    overflow: hidden;
 }
 
 .promotion-item__trainers {
@@ -31,6 +31,7 @@
     height: 30%;
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .promotion-item__hot-sale {
@@ -41,13 +42,14 @@
     width: 100%;
     margin-top: 50px;
     position: relative;
+    overflow: hidden;
 }
 
-.apromotion-item__title {
-    color: var(--ui-light-shade-color);
-    font: var(--font-secondary);
-    font-family: sans-serif;
+.promotion-item__title {
+    color: var(--ui-dark-shade-color);
+    font-family: var(--font-secondary);
     font-size: 38px;
+    font-weight: lighter;
 }
 
 .promotion-item__span {
@@ -57,12 +59,14 @@
 .promotion-item__separator {
     margin-top: 15px;
     margin-bottom: 15px;
-    height: 3px;
-    width: 250px;
+    height: 2px;
+    width: 80px;
     background-color: var(--ui-brand-color);
 }
 
 .promotion-item__link {
+    color: var(--ui-dark-shade-color);
+    font-family: var(--font-third-additional);
     text-decoration: none;
     font-size: 14px;
 }
@@ -75,12 +79,13 @@
     bottom: 0;
     left: 0;
     padding-left: 10%;
-    padding-bottom: 5%;
+    padding-bottom: 25px;
 }
 
 @media (min-width: 768px) {
     .promotion{
         height: 500px;
+        width: 100%;
     }
     .promotion__items {
         flex-direction: row;
@@ -91,21 +96,24 @@
     }
 
     .promotion-item__new-arrivals {
-        width: 30%;
-        height: 40%;
+        width: 40%;
+        height: 70%;
         margin-bottom: 0;
     }
 
     .promotion-item__trainers {
-        width: 20%;
-        height: 40%;
+        width: 18%;
+        height: 70%;
         margin-left: 3%;
         margin-right: 3%;
     }
 
     .promotion-item__hot-sale {
-        width: 20%;
-        height: 40%;
+        width: 18%;
+        height: 70%;
         margin-top: 0;
+    }
+    .promotion-item__title {
+        font-size: 52px;
     }
 }
