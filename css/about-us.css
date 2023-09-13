@@ -6,7 +6,7 @@
 }
 
 .about-us__image-container {
-    background-image: url(/img/about-us__photo.jpeg);
+    background-image: url(../img/about-us__photo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 30%;
