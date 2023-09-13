@@ -15,7 +15,7 @@
 }
 
 .promotion-item__new-arrivals {
-    background-image: url(./img/promotion-items/man-with-shoe.svg);
+    background-image: url(../img/promotion-items/man-with-shoe.svg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 30%;
@@ -25,7 +25,7 @@
 }
 
 .promotion-item__trainers {
-    background-image: url(./img/promotion-items/trainers.png);
+    background-image: url(../img/promotion-items/trainers.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 30%;
@@ -34,7 +34,7 @@
 }
 
 .promotion-item__hot-sale {
-    background-image: url(./img/promotion-items/hot-sale.png);
+    background-image: url(../img/promotion-items/hot-sale.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 30%;
