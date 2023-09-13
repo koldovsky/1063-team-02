@@ -9,19 +9,15 @@
     background-image: url(../img/about-us__photo.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 30%;
+    height: 40%;
     overflow: hidden;
 }
 
 .about-us .content-textblock {
-    height: 70%;
     text-align: left;
     display: flex;
     flex-direction: column;
-    padding-top: 90px;
-    padding-bottom: 90px;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 90px 30px;
 }
 
 .about-us__separator {
@@ -42,16 +38,22 @@
 
 .about-us p {
     color: var(--ui-light-shade-color);
-    font: var(--font-additional);
+    font-family: var(--font-third-additional);
     font-size: 16px;
+    font-weight: normal;
 }
 
 .about-us h2 {
     color: var(--ui-light-shade-color);
-    font: var(--font-secondary);
-    font-family: sans-serif;
-    font-size: 36px;
+    font-family: var(--font-secondary);
+    font-size: 38px;
+    font-weight: normal;
 }
+
+.about-us__description p{
+    font-size: 20px;
+}
+
 @media (min-width: 768px) {
     .about-us{
         height: 700px;
@@ -66,6 +68,9 @@
     .about-us .content-textblock {
         max-width: 50%;
         justify-content: center;
+        margin: auto;
+        padding-top: 0px;
+        padding-bottom: 0px;
     }
     .about-us__separator {
         margin-top: 15px;
@@ -75,6 +80,9 @@
         background-color: var(--ui-brand-color);
     }
     .about-us__text {
-        margin-top: auto;
+        /* margin-top: auto; */
+    }
+    .about-us h2 {
+        font-size: 3.3em;
     }
 }
