@@ -14,7 +14,7 @@
     --font-primary: "PT Sans", sans-serif;
     --font-secondary: "Bebas Neue", sans-serif;
     --font-first-additional: "Roboto", sans-serif;
-    --font-additional: "Google Sans", sans-serif;
+    --font-second-additional: "Google Sans", sans-serif;
     --ui-light-shade-color: #fff;
     --ui-light-accent-color: #e0e0e0;
     --ui-brand-color: #f40106;
@@ -28,15 +28,15 @@ img {
     max-width: 100%;
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
 .title-dash {
-    /* gray title dash styles */
+    display: block;
+    background-color: var(--ui-light-accent-color);
+    height: 2px;
+    width: 80px;
+    margin: 15px 0 15px 0;
 }
 
 .title-point {
-    /* red dot styles */
+    color: var(--ui-brand-color);
+    font-size: inherit;
 }
