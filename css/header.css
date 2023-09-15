@@ -16,6 +16,7 @@
     font-weight: bold;
     color: var(--ui-light-shade-color);
     text-decoration: none;
+    text-shadow: 1px 1px 1px --ui-dark-shade-color;
 }
 
 .header__attention__list {
@@ -73,7 +74,7 @@
     align-items: center;
 }
 
-.container {
+.header__container {
     width: 1200px;
     height: 100px;
     display: flex;
@@ -137,18 +138,23 @@
     width: 100%;
 }
 
-.header__banner {
-    background-image: url(../img/header/main__banner.jpeg);
-    background-size: cover;
-    /* min-height: 800x; */
-    background-position: center;
-}
+
 
 /*----------Navbar__End----------*/
 
 /*----------Header__Banner__Start----------*/
 
 .header__banner {
+    width: 100%;
+    background-image: url(../img/header/main__banner.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 880px;
+}
+
+.header__banner {
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -156,33 +162,117 @@
 
 .header__banner__area {
     width: 1200px;
-    height: 828px;
     display: flex;
+    align-items: center;
 }
 
-.header__banner-text,
-.new-collections__text__large {
-    font-family: var(--font-secondary);
-    font-size: 124px;
-    color: var(--ui-dark-shade-color);
+@media (min-width: 480px) {
+      .header__banner-text {
+        font-family: var(--font-secondary);
+        font-size: 62px;
+        color: var(--ui-brand-color);
+    }
+
+    .new-collections__text__small {
+        font-family: var(--font-secondary);
+        font-size: 22px;
+        color: var(--ui-dark-accent-color);
+    }
+
+    .new-collections__text__large,
+    .new-collections__othercolor,
+    .new-collections__text__large {
+        font-family: var(--font-secondary);
+        font-size: 62px;
+        color: var(--ui-dark-shade-color);
+    }
+
+    .new-collections__othercolor {
+        color: var(--ui-brand-color);
+    }
+
+    .new-collections {
+        padding: 0 24px;
+    }
+
+    .new-collections__square {
+        font-size: 22px;
+        color: var(--ui-brand-color);
+    }
+
 }
 
-.header__banner-text,
-.new-collections__othercolor {
-    font-family: var(--font-secondary);
-    font-size: 124px;
-    color: var(--ui-brand-color);
+@media (min-width: 768px) {
+    .header__banner-text {
+        font-family: var(--font-secondary);
+        font-size: 93px;
+        color: var(--ui-brand-color);
+    }
+
+    .new-collections__text__small {
+        font-family: var(--font-secondary);
+        font-size: 23px;
+        color: var(--ui-dark-accent-color);
+    }
+
+    .new-collections__text__large,
+    .new-collections__othercolor,
+    .new-collections__text__large {
+        font-family: var(--font-secondary);
+        font-size: 93px;
+        color: var(--ui-dark-shade-color);
+    }
+
+    .new-collections__othercolor {
+        color: var(--ui-brand-color);
+    }
+
+    .new-collections {
+        padding: 0 16px 0 16px;
+    }
+
+    .new-collections__square {
+        font-size: 23px;
+        color: var(--ui-brand-color);
+        margin-left: -5px;
+    }
 }
 
-.new-collections__text__small {
-    font-family: var(--font-secondary);
-    font-size: 24px;
-    color: var(--ui-dark-accent-color);
-}
 
-.new-collections__square {
-    font-size: 24px;
-    color: var(--ui-brand-color);
+@media (min-width: 992px) {
+    .header__banner-text {
+        font-family: var(--font-secondary);
+        font-size: 124px;
+        color: var(--ui-brand-color);
+    }
+
+    .new-collections__text__small {
+        font-family: var(--font-secondary);
+        font-size: 24px;
+        color: var(--ui-dark-accent-color);
+    }
+
+    .new-collections__text__large,
+    .new-collections__othercolor,
+    .new-collections__text__large {
+        font-family: var(--font-secondary);
+        font-size: 124px;
+        color: var(--ui-dark-shade-color);
+    }
+
+    .new-collections__othercolor {
+        color: var(--ui-brand-color);
+    }
+
+    .new-collections {
+        padding: 0 16px 0 16px;
+    }
+
+    .new-collections__square {
+        font-size: 32px;
+        color: var(--ui-brand-color);
+        margin-left: -15px;
+    }
 }
 
 /*----------Header__Banner__End----------*/
@@ -235,7 +325,7 @@
     }
 }
 
-.burger__menu__button-close{
+.burger__menu__button-close {
     display: none;
     color: var(--ui-light-shade-color);
     font-size: 32px;

@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Google+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
 
@@ -14,12 +14,14 @@
     --font-primary: "PT Sans", sans-serif;
     --font-secondary: "Bebas Neue", sans-serif;
     --font-first-additional: "Roboto", sans-serif;
-    --font-additional: "Google Sans", sans-serif;
+    --font-second-additional: "Google Sans", sans-serif;
+    --font-third-additional: "PT Sans", sans-serif;
     --ui-light-shade-color: #fff;
     --ui-light-accent-color: #e0e0e0;
     --ui-brand-color: #f40106;
     --ui-dark-brand-color: #D60307;
     --ui-dark-accent-color: #9b9b9b;
+    --ui-btn-primary-hover-bg-color: #222323;
     --ui-dark-shade-color: #222323;
     --ui-dark-grey-color: #717474;
 }
@@ -29,15 +31,15 @@ img {
     max-width: 100%;
 }
 
-.container {
-    max-width: 1200px;
-    margin: auto;
-}
-
 .title-dash {
-    /* gray title dash styles */
+    display: block;
+    background-color: var(--ui-light-accent-color);
+    height: 2px;
+    width: 80px;
+    margin: 15px 0 15px 0;
 }
 
 .title-point {
-    /* red dot styles */
+    color: var(--ui-brand-color);
+    font-size: inherit;
 }

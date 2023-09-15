@@ -1,5 +1,19 @@
 .add-to-cart__button {
-  /* add to cart button styles */
+  width: 130px;
+  height: 50px;
+  font-family: var(--font-primary);
+  font-weight: 700;
+  font-size: 15px;
+  background: #000;
+  color: var(--ui-light-shade-color);
+  border: none;
+  transition: .3s ease-out;
+}
+
+.add-to-cart__button:hover {
+  background: var(--ui-brand-color);
+  transition: .3s ease-out;
+  cursor: pointer;
 }
 
 .show-now__button {
@@ -14,9 +28,10 @@
   font-family: var(--font-primary);
   font-size: 16.5px;
   color: var(--ui-light-shade-color);
-  padding: 15px 25px;
+  padding: 17px 30px;
+  font-weight: bold;
 }
 
 .shop__new-collections__button:hover {
-  background-color: black;
+  background-color: var(--ui-btn-primary-hover-bg-color);
 }
