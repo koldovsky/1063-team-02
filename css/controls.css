@@ -28,9 +28,10 @@
   font-family: var(--font-primary);
   font-size: 16.5px;
   color: var(--ui-light-shade-color);
-  padding: 15px 25px;
+  padding: 17px 30px;
+  font-weight: bold;
 }
 
 .shop__new-collections__button:hover {
-  background-color: black;
+  background-color: var(--ui-btn-primary-hover-bg-color);
 }

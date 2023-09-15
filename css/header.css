@@ -166,10 +166,8 @@
     align-items: center;
 }
 
-
-
-@media (min-width: 320px) {
-    .header__banner-text {
+@media (min-width: 480px) {
+      .header__banner-text {
         font-family: var(--font-secondary);
         font-size: 62px;
         color: var(--ui-brand-color);
@@ -194,7 +192,7 @@
     }
 
     .new-collections {
-        padding: 0 16px 0 16px;
+        padding: 0 24px;
     }
 
     .new-collections__square {
@@ -236,6 +234,7 @@
     .new-collections__square {
         font-size: 23px;
         color: var(--ui-brand-color);
+        margin-left: -5px;
     }
 }
 
@@ -272,6 +271,7 @@
     .new-collections__square {
         font-size: 32px;
         color: var(--ui-brand-color);
+        margin-left: -15px;
     }
 }
 
