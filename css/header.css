@@ -16,6 +16,7 @@
     font-weight: bold;
     color: var(--ui-light-shade-color);
     text-decoration: none;
+    text-shadow: 1px 1px 1px --ui-dark-shade-color;
 }
 
 .header__attention__list {
@@ -73,7 +74,7 @@
     align-items: center;
 }
 
-.container {
+.header__container {
     width: 1200px;
     height: 100px;
     display: flex;
