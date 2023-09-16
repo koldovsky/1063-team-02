@@ -18,15 +18,16 @@
             </div>
         </div>
     </div>
-    <div class="header__navbar">
+    <div class="header__navbar" id="header__navbar">
         <div class="header__container">
             <div class="header__navbar__logo">
                 <a href="index.html" class="header__logo">
                     <img src="img/header/header__logo.svg" alt="Workout logo" />
                 </a>
+                <!-- <div class="navigation-burger"><span></span></div> -->
             </div>
-            <div class="navbar-wrapper">
-                <nav class="navbar__menu">
+            <nav class="navbar-wrapper">
+                <div class="navbar__menu" id="navbar__menu">
                     <ul class="menu__list">
                         <li class="menu-list-item">
                             <a href="#" class="menu__list-link">
@@ -59,7 +60,7 @@
                             </a>
                         </li>
                     </ul>
-                </nav>
+                </div>
                 <div class="social-menu">
                     <ul class="social-menu-list">
                         <li class="social-menu-item">
@@ -79,12 +80,10 @@
                         </li>
                     </ul>
                 </div>
-                <a class="navbar__button" href="#">&#9776</a>
-
-            </div>
-
-
-
+            </nav>
+            <button class="header__burger-btn" id="burger">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </div>
     <div class="header__banner">
@@ -102,9 +101,6 @@
                 <div class="shop__new-collections">
                     <a href="#" class="shop__new-collections__button">Shop now &#8594;</a>
                 </div>
-            </div>
-            <div class="burger__menu__button">
-                <a class="burger__menu__button-close" href="index.header.partial.html">&#9747</a>
             </div>
         </div>
     </div>
