@@ -1,4 +1,4 @@
-.workout-banner {
+.workout-banner{
     position: relative;
     background-image: url('../img/workout-banner-bg.jpeg');
     background-size: cover;
@@ -6,7 +6,7 @@
     background-position: center;
     height: 100vh;
 }
-.workout-banner__container {
+.workout-banner__container{
     display: flex;
     justify-content: flex-end; 
     height: 100%;
@@ -15,7 +15,7 @@
     color: var(--ui-light-shade-color);
     height: 100vh;
 }
-.workout-banner__text {
+.workout-banner__text{
     padding-left: 30%;
     width: auto;
     word-break: break-word;
@@ -25,12 +25,12 @@
     font-size: 20px;
     margin-right: 15px;
 }
-.workout-banner__before-title {
+.workout-banner__before-title{
     left: 20px;
     padding-bottom: 20px; 
     position:relative;  
     font-size: 21px;
-    opacity:0.5;
+    opacity:0.6;
     padding-top: 30px;
     font-family: var(--font-secondary);
 }
@@ -39,10 +39,10 @@
     position:relative; 
     left:20px; 
     font-size: 45px;
-    font-family: var(--font-primary);
+    font-family: var(--font-secondary);
     font-weight: 1000;
 }
-.workout-banner__features {
+.workout-banner__features{
     word-break: break-word;
     flex-wrap: wrap;
     display: flex;
@@ -53,14 +53,14 @@
     font-size: 20px;
     padding-top: 70px;
 }
-.workout-banner__features .workout-banner__offers {
+.workout-banner__features .workout-banner__offers{
     display: flex;
     font-family: var(--font-primary);
     font-weight: 700;
     align-items: center;
     margin-right: 5px; 
 }
-.workout-banner__features .workout-banner__offers .checkbox {
+.workout-banner__features .workout-banner__offers .checkbox{
     background-image: url(../img/check_mark.webp);
     background-size: 18px 18px;
     width: 18px;
@@ -76,7 +76,7 @@
     font-size: 20px;
     padding-top: 30px;
 }
-.workout-banner__button-more {
+.workout-banner__button-more{
     font-family: var(--font-primary);
     position: relative; 
     left: 20px;
@@ -87,194 +87,101 @@
     border: solid var(--ui-light-shade-color);
     text-decoration: none;
 }
-.workout-banner__button-more:hover {
+.workout-banner__button-more:hover{
     background-color: var(--ui-light-shade-color);
     color: var(--ui-black-color);
 }
-@media (max-width: 768px) {
-    .workout-banner__container {
+@media (max-width: 768px){
+    .workout-banner{
         text-align: left;
-        display: flex;
-        justify-content: flex-end; 
-        height: 100%;
-        padding: 0 10px; 
-        align-items: center;
-        color: var(--ui-light-shade-color);
+        height: 700px;
+    }    
+    .workout-banner__container{
+        text-align: left;
         height: 650px;
     }
     .workout-banner__title{
-        word-break: break-word;
-        position:relative; 
-        left:20px; 
         font-size: 62px;
-        font-family: var(--font-secondary);
         font-weight: 400; 
     }
-    .workout-banner {
-        position: relative;
-        text-align: left;
-        background-image: url('../img/workout-banner-bg.jpeg');
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: center;
-        height: 700px;
-    }
-    .workout-banner__text {
+    .workout-banner__text{
         padding-left: 0;
-        width: auto;
-        word-break: break-word;
-        text-align: left;
         position: relative;
         padding-top: 50px;
-        font-size: 20px;
-        margin-right: 15px;
     }
     .workout-banner__features{
-        word-break: break-word;
-        display: flex;
         gap: 10px; 
         position:relative; 
         left:0px; 
         padding-bottom: 10px;
-        font-size: 20px;
-        padding-top: 20px;
     }
 }
-@media (min-width: 768px) and (max-width: 1012px) {
-    .workout-banner__container {
-        display: flex;
-        height: 100%;
-        padding: 0 10px;
-        color: var(--ui-light-shade-color);
-    }
-    .workout-banner__text {
-        padding-left: 30%;
-        width: auto;
+@media (min-width: 768px) and (max-width: 1012px){
+    .workout-banner__text{
         word-break: break-word; 
-        position:relative; 
-        font-size: 20px;
-        margin-right: 15px;
     }
-    .workout-banner__before-title {
-        position: relative;
+    .workout-banner__before-title{
         left: 0;
         padding-left: 22%;
         width: auto;
         font-size: 23px;
-        opacity: 0.6;
-        font-family: var(--font-secondary);
         white-space: normal; 
     }
-    .workout-banner__title {
-        position: relative;
+    .workout-banner__title{
         left: 0;
         padding-left: 22%;
         width: auto;
-        font-size: 92px;
-        font-family: var(--font-secondary);
+        font-size: 92px;  
         font-weight: 400; 
     }
-    .workout-banner__features {
-        word-break: break-word;
-        flex-wrap: wrap;
-        display: flex;
-        gap: 15px;
-        position: relative;
+    .workout-banner__features{
         left: 0;
         padding-left: 20%;
         width: auto;
         padding-bottom: 20px;
-        font-size: 20px;
         padding-top: 20px;
     }
-    .workout-banner__inside-text {
-        padding-bottom: 20px;
-        position: relative;
+    .workout-banner__inside-text{
         left: 0;
         padding-left: 22%;
         width: auto;
-        padding-right:10%;
-        font-size: 20px;
-        padding-top: 30px;
+        padding-right: 10%;
     }
-    .workout-banner__button-more {
-        position: relative; 
+    .workout-banner__button-more{   
         left: 22%; 
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: transparent;
-        color: var(--ui-light-shade-color);
-        border: solid var(--ui-light-shade-color);
-        text-decoration: none;
     }
 }
-@media (min-width: 1012px) {
-    .workout-banner__container {
-        display: flex;
-        height: 100%;
-        padding: 0 10px;
-        color: var(--ui-light-shade-color);
-    }
-    .workout-banner__text {
-        padding-left: 30%;
-        width: auto;
-        word-break: break-word; 
-        position:relative; 
-        font-size: 20px;
-        margin-right: 15px;
-    }
-    .workout-banner__before-title {
-        position: relative;
+@media (min-width: 1012px){
+    .workout-banner__before-title{    
         left: 0;
         padding-left: 22%;
         width: auto;
         font-size: 23px;
-        opacity: 0.6;
-        font-family: var(--font-secondary);
         white-space: normal; 
     }
-    .workout-banner__title {
-        
-        position: relative;
+    .workout-banner__title{
         left: 0;
         padding-left: 22%;
         width: auto;
         font-size: 120px;
-        font-family: var(--font-secondary);
         font-weight: 400; 
     }
-    .workout-banner__features {
-        word-break: break-word;
-        flex-wrap: wrap;
-        display: flex;
-        gap: 15px;
-        position: relative;
+    .workout-banner__features{
         left: 0;
         padding-left: 20%;
         width: auto;
         padding-bottom: 20px;
-        font-size: 20px;
         padding-top: 20px;
     }
-    .workout-banner__inside-text {
-        padding-bottom: 20px;
-        position: relative;
+    .workout-banner__inside-text{
         left: 0;
         padding-left: 22%;
         width: auto;
-        font-size: 20px;
         padding-right:10%;
         padding-top: 30px;
     }
-    .workout-banner__button-more {
-        position: relative; 
+    .workout-banner__button-more{
         left: 22%; 
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: transparent;
-        color: var(--ui-light-shade-color);
-        border: solid var(--ui-light-shade-color);
-        text-decoration: none;
     }
 }
     
