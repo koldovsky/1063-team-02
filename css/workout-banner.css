@@ -6,21 +6,20 @@
     background-position: center;
     height: 100vh;
 }
-
 .workout-banner__container {
     display: flex;
-    justify-content: flex-end; /* Текст праворуч від центру для комп'ютера */
+    justify-content: flex-end; 
     height: 100%;
-    padding: 0 10px; /* 10px відступи зліва і справа на комп'ютері */
+    padding: 0 10px; 
     align-items: center;
-    color: white;
+    color: var(--ui-light-shade-color);
     height: 100vh;
 }
 .workout-banner__text {
     padding-left: 30%;
     width: auto;
     word-break: break-word;
-    text-align: left; /* Текст ліворуч для мобільного */
+    text-align: left; 
     position:relative; 
     padding-top:50px;
     font-size: 20px;
@@ -28,7 +27,7 @@
 }
 .workout-banner__before-title {
     left: 20px;
-    padding-bottom: 20px; /* Відступ під заголовком */
+    padding-bottom: 20px; 
     position:relative;  
     font-size: 21px;
     opacity:0.5;
@@ -49,65 +48,58 @@
     display: flex;
     gap: 15px;
     position: relative;
-    left: 20px; /* Зберіть такий самий відступ як у .workout-banner__before-title */
+    left: 20px; 
     padding-bottom: 60px;
     font-size: 20px;
     padding-top: 70px;
 }
-
 .workout-banner__features .workout-banner__offers {
     display: flex;
     font-family: var(--font-primary);
     font-weight: 700;
     align-items: center;
-    margin-right: 5px; /* Відступ між галочкою і текстом */
+    margin-right: 5px; 
 }
-
 .workout-banner__features .workout-banner__offers .checkbox {
     background-image: url(../img/check_mark.webp);
     background-size: 18px 18px;
     width: 18px;
     height: 18px;
-    margin-right: 4px; /* Додати відступ між галочкою і текстом */
-    margin-left: 20px; /* Зберіть такий самий відступ як у .workout-banner__before-title */
+    margin-right: 4px; 
+    margin-left: 20px; 
 }
 .workout-banner__inside-text{
     font-family: var(--font-primary);
-    padding-bottom: 20px; /* Відступ під заголовком */
+    padding-bottom: 20px;
     position:relative; 
     left:20px; 
     font-size: 20px;
     padding-top: 30px;
 }
-
 .workout-banner__button-more {
     font-family: var(--font-primary);
-    position: relative; /* Додайте позиціонування relative */
-    left: 20px; /* Змінено значення left для відступу зліва */
+    position: relative; 
+    left: 20px;
     display: inline-block;
     padding: 10px 20px;
     background-color: transparent;
-    color: #fff;
-    border: solid #fff;
+    color: var(--ui-light-shade-color);
+    border: solid var(--ui-light-shade-color);
     text-decoration: none;
 }
-
 .workout-banner__button-more:hover {
-    background-color: #fff;
-    color: #000;
+    background-color: var(--ui-light-shade-color);
+    color: var(--ui-black-color);
 }
-
-/* Медіа-запит для мобільного пристрою */
 @media (max-width: 768px) {
-   
     .workout-banner__container {
         text-align: left;
         display: flex;
-        justify-content: flex-end; /* Текст праворуч від центру для комп'ютера */
+        justify-content: flex-end; 
         height: 100%;
-        padding: 0 10px; /* 10px відступи зліва і справа на комп'ютері */
+        padding: 0 10px; 
         align-items: center;
-        color: white;
+        color: var(--ui-light-shade-color);
         height: 650px;
     }
     .workout-banner__title{
@@ -117,7 +109,6 @@
         font-size: 62px;
         font-family: var(--font-secondary);
         font-weight: 400; 
-
     }
     .workout-banner {
         position: relative;
@@ -150,13 +141,11 @@
     }
 }
 @media (min-width: 768px) and (max-width: 1012px) {
-    
     .workout-banner__container {
         display: flex;
         height: 100%;
         padding: 0 10px;
-        
-        color: white;
+        color: var(--ui-light-shade-color);
     }
     .workout-banner__text {
         padding-left: 30%;
@@ -166,7 +155,6 @@
         font-size: 20px;
         margin-right: 15px;
     }
-
     .workout-banner__before-title {
         position: relative;
         left: 0;
@@ -178,7 +166,6 @@
         white-space: normal; 
     }
     .workout-banner__title {
-        
         position: relative;
         left: 0;
         padding-left: 22%;
@@ -211,13 +198,13 @@
         padding-top: 30px;
     }
     .workout-banner__button-more {
-        position: relative; /* Додайте позиціонування relative */
-        left: 22%; /* Змінено значення left для відступу зліва */
+        position: relative; 
+        left: 22%; 
         display: inline-block;
         padding: 10px 20px;
         background-color: transparent;
-        color: #fff;
-        border: solid #fff;
+        color: var(--ui-light-shade-color);
+        border: solid var(--ui-light-shade-color);
         text-decoration: none;
     }
 }
@@ -226,8 +213,7 @@
         display: flex;
         height: 100%;
         padding: 0 10px;
-        
-        color: white;
+        color: var(--ui-light-shade-color);
     }
     .workout-banner__text {
         padding-left: 30%;
@@ -237,7 +223,6 @@
         font-size: 20px;
         margin-right: 15px;
     }
-
     .workout-banner__before-title {
         position: relative;
         left: 0;
@@ -287,8 +272,8 @@
         display: inline-block;
         padding: 10px 20px;
         background-color: transparent;
-        color: #fff;
-        border: solid #fff;
+        color: var(--ui-light-shade-color);
+        border: solid var(--ui-light-shade-color);
         text-decoration: none;
     }
 }
