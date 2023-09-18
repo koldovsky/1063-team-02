@@ -1,44 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sport Clothes Store</title>
-    <link rel="shortcut icon" href="img/header/title__logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/index.css">
-</head>
-
-<body>
-    <header class="header">
-        <div class="header__attention">
-            <div class="header__attention__message">
-                <div class="header__message">
-                    <p class="header__attention__message-text">
-                        We’ve extended our returns period to 30 days.
-                    </p>
-                </div>
-                <div class="header__message-item">
-                    <ul class="header__attention__list">
-                        <li class="header__attention__contact">
-                            <a href="mailto:workout@email.com" class="header__attention__email">workout@email.com</a>
-                        </li>
-                        <li class="header__attention__contact">
-                            <a href="tel:+1(234)5678900" class="header__attention__phone">+1 (234) 567 89 00</a>
-                        </li>
-                    </ul>
-                </div>
+<header class="header">
+    <div class="header__attention">
+        <div class="header__attention__message">
+            <div class="header__message">
+                <p class="header__attention__message-text">
+                    We’ve extended our returns period to 30 days.
+                </p>
+            </div>
+            <div class="header__message-item">
+                <ul class="header__attention__list">
+                    <li class="header__attention__contact">
+                        <a href="mailto:workout@email.com" class="header__attention__email">workout@email.com</a>
+                    </li>
+                    <li class="header__attention__contact">
+                        <a href="tel:+1(234)5678900" class="header__attention__phone">+1 (234) 567 89 00</a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <div class="header__navbar">
-            <div class="container">
-                <div class="header__navbar__logo">
-                    <a href="index.html" class="header__logo">
-                        <img src="img/header/header__logo.svg" alt="Workout logo" />
-                    </a>
-                </div>
-                <nav class="navbar__menu">
+    </div>
+    <div class="header__navbar" id="header__navbar">
+        <div class="header__container">
+            <div class="header__navbar__logo">
+                <a href="index.html" class="header__logo">
+                    <img src="img/header/header__logo.svg" alt="Workout logo" />
+                </a>
+                <!-- <div class="navigation-burger"><span></span></div> -->
+            </div>
+            <nav class="navbar-wrapper">
+                <div class="navbar__menu" id="navbar__menu">
                     <ul class="menu__list">
                         <li class="menu-list-item">
                             <a href="#" class="menu__list-link">
@@ -71,7 +60,7 @@
                             </a>
                         </li>
                     </ul>
-                </nav>
+                </div>
                 <div class="social-menu">
                     <ul class="social-menu-list">
                         <li class="social-menu-item">
@@ -91,31 +80,28 @@
                         </li>
                     </ul>
                 </div>
-                <a class="navbar__button" href="#">&#9776</a>
+            </nav>
+            <button class="header__burger-btn" id="burger">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+    <div class="header__banner">
+        <div class="header__banner__area">
+            <div class="new-collections">
+                <h1 class="header__banner-text">WORKOUT STORE</h1>
+                <p class="new-collections__text__small">ASPIRE TO MORE</p>
+                <p class="new-collections__text__large">
+                    NEW <span class="new-collections__othercolor">COLLECTIONS</span>
+                </p>
+                <p class="new-collections__text__large">
+                    BY TOP BRANDS
+                    <span class="new-collections__square">&#9632;</span>
+                </p>
+                <div class="shop__new-collections">
+                    <a href="#" class="shop__new-collections__button">Shop now &#8594;</a>
+                </div>
             </div>
         </div>
-        <div class="header__banner">
-            <div class="header__banner__area">
-                <div class="new-collections">
-                    <h1 class="header__banner-text">WORKOUT STORE</h1>
-                    <p class="new-collections__text__small">ASPIRE TO MORE</p>
-                    <p class="new-collections__text__large">
-                        NEW <span class="new-collections__othercolor">COLLECTIONS</span>
-                    </p>
-                    <p class="new-collections__text__large">
-                        BY TOP BRANDS
-                        <span class="new-collections__square">&#9632;</span>
-                    </p>
-                    <div class="shop__new-collections">
-                        <a href="#" class="shop__new-collections__button">Shop now &#8594;</a>
-                    </div>
-                </div>
-                <div class="burger__menu__button">
-                    <a class="burger__menu__button-close" href="index.header.partial.html">&#9747</a>
-                </div>
-            </div>
-        </div>
-    </header>
-</body>
-
-</html>
+    </div>
+</header>

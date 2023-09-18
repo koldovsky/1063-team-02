@@ -126,7 +126,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
-        height: 650px;
+        height: 700px;
     }
     .workout-banner__text {
         padding-left: 0;
@@ -175,7 +175,7 @@
         font-size: 23px;
         opacity: 0.6;
         font-family: var(--font-secondary);
-        white-space: normal; /* Дозволяємо тексту переноситися на наступний рядок, якщо він не вміщується */
+        white-space: normal; 
     }
     .workout-banner__title {
         
@@ -246,7 +246,7 @@
         font-size: 23px;
         opacity: 0.6;
         font-family: var(--font-secondary);
-        white-space: normal; /* Дозволяємо тексту переноситися на наступний рядок, якщо він не вміщується */
+        white-space: normal; 
     }
     .workout-banner__title {
         
@@ -282,8 +282,8 @@
         padding-top: 30px;
     }
     .workout-banner__button-more {
-        position: relative; /* Додайте позиціонування relative */
-        left: 22%; /* Змінено значення left для відступу зліва */
+        position: relative; 
+        left: 22%; 
         display: inline-block;
         padding: 10px 20px;
         background-color: transparent;
