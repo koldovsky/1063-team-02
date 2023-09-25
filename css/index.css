@@ -1,16 +1,18 @@
 @import url(global.css);
 @import url(controls.css);
 @import url(header.css);
-@import url(brands.css);
 @import url(choose-us.css);
 @import url(about-us.css);
 @import url(mid-sale.css);
+@import url(main-collection.css);
 @import url(your-discount.css);
 @import url(promotion-items.css);
 @import url(new-arrivals.css);
 @import url(workout-banner.css);
 @import url(footer.css);
+@import url(brands.css);
 @import url(blog.css);
 @import url(offer.css);
-
-
+@import url(offer-modal.css);
+@import url(map.css);
+@import url(shoppingcart.css);
