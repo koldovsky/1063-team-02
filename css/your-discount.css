@@ -30,11 +30,13 @@
     font-size: 16.5px;
     color: var(--ui-dark-shade-color);
     padding: 15px 25px;
+    font-weight: bold;
   }
   
 .button--toShop:hover {
   color: var(--ui-light-shade-color);
   background-color: var(--ui-dark-shade-color);
+
 }
 @media (max-width: 768px){
 
