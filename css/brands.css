@@ -1,8 +1,8 @@
-#owl-demo{
+#brands-carousel{
   width: 60%;
   margin: 0 auto;
 }
-#owl-demo .item {
+#brands-carousel .item {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -11,7 +11,7 @@
   text-align: center;
 }
 
-#owl-demo .item img {
+#brands-carousel .item img {
   display: flex;
   width: 75%; 
   height: auto;
@@ -40,14 +40,14 @@ background-color: transparent !important; /* Змініть колір на по
 }
 @media screen and (max-width: 991px) {
 
-  #owl-demo .item img {
+  #brands-carousel .item img {
     width: 100%; /* Змінюємо ширину зображень .item img на бажану в цьому діапазоні */
   }
 
   
 }
 @media screen and (max-width:768px){
-  #owl-demo .item{
+  #brands-carousel .item{
     height: 250px;
   }
   .owl-prev, .owl-next {
