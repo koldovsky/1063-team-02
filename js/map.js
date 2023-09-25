@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function() {
             map.setView([40.73094208356841, -74.17916164534654], 16);
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
             maxZoom: 19,
-            attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
         }).addTo(map);
         var marker = L.marker([40.73094208356841, -74.17916164534654], {icon: customIcon}).addTo(map)
             .bindPopup('<h1 style="font-size: 18px; color: black; font-family: var(--font-secondary)">WORKOUT</h1><p style="font-family: var(--font-first-additional); font-size:12px; color: var(--ui-dark-grey-color);">325 University Ave Newark, NJ 07102</p>')
