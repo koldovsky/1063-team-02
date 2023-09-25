@@ -1,0 +1,80 @@
+.fitness_banner{
+    padding-left: 10%;
+    flex-basis: 50%;
+    max-width: 50%;
+  }
+  .fitness {
+    position: relative;
+    background-image: url(../img/fitness-collection/fitness-collection.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .trending-text{
+    font-family: var(--font-secondary);
+    color: var(--ui-dark-accent-color);
+    padding-bottom: 15px;
+  }
+  .fitness-collection-heading{
+    font-family: var(--font-secondary);
+    color: var(--ui-dark-shade-color);
+    padding-bottom: 30px;
+  }
+  
+  .button--toShop-fitness {
+        text-decoration: none;
+        cursor: pointer;
+        background-color: var(--ui-brand-color);
+        font-family: var(--font-primary);
+        font-size: 16.5px;
+        color: var(--ui-light-shade-color);
+        padding: 17px 30px;
+        font-weight: bold;
+    }
+    
+    .button--toShop-fitness:hover {
+        background-color: var(--ui-btn-primary-hover-bg-color);
+    }
+  @media (max-width: 768px){
+  
+    .trending-text{
+      font-size: 22px;
+    }
+    .fitness-collection-heading{
+      font-size: 62px;
+    }
+  
+    .fitness_banner {
+      max-width: 100%;
+      padding-top: 8%;
+      padding-bottom: 8%;
+    }
+    
+  }
+  @media (min-width: 768px) and (max-width: 1012px){
+    .trending-text{
+      font-size: 23px;
+    }
+    .fitness-collection-heading{
+      font-size: 93px;
+    }
+    .fitness_banner {
+      padding-top: 10%;
+      padding-bottom: 10%;
+    }
+  }
+  @media (min-width: 1012px){
+    .trending-text{
+      font-size: 24px;
+    }
+    .fitness-collection-heading{
+      font-size: 124px;
+    }
+    .fitness_banner {
+      padding-top: 15%;
+      padding-bottom: 15%;
+    }
+    
+  }
+  
