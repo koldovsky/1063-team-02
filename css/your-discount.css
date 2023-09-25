@@ -1,0 +1,79 @@
+.discounts__banner__title {
+  padding-left: 10%;
+  flex-basis: 50%;
+  max-width: 50%;
+}
+.discounts__banner {
+  position: relative;
+  background-image: url(../img/your-disount/your-discount__background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.discounts__heading{
+  font-family: var(--font-secondary);
+  color: var(--ui-light-accent-color);
+  padding-bottom: 15px;
+}
+.discounts__title{
+  font-family: var(--font-secondary);
+  color: var(--ui-light-shade-color);
+  padding-bottom: 30px;
+}
+
+.button--toShop {
+    text-decoration: none;
+    cursor: pointer;
+    background-color: var(--ui-light-shade-color);
+    font-family: var(--font-primary);
+    font-size: 16.5px;
+    color: var(--ui-dark-shade-color);
+    padding: 15px 25px;
+  }
+  
+.button--toShop:hover {
+  color: var(--ui-light-shade-color);
+  background-color: var(--ui-dark-shade-color);
+}
+@media (max-width: 768px){
+
+  .discounts__heading{
+    font-size: 22px;
+  }
+  .discounts__title{
+    font-size: 62px;
+  }
+
+  .discounts__banner__title {
+    max-width: 100%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+  }
+  
+}
+@media (min-width: 768px) and (max-width: 1012px){
+  .discounts__heading{
+    font-size: 23px;
+  }
+  .discounts__title{
+    font-size: 93px;
+  }
+  .discounts__banner__title {
+    padding-top: 10%;
+    padding-bottom: 10%;
+  }
+}
+@media (min-width: 1012px){
+  .discounts__heading{
+    font-size: 24px;
+  }
+  .discounts__title{
+    font-size: 124px;
+  }
+  .discounts__banner__title {
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  
+}
