@@ -8,7 +8,9 @@ document.addEventListener("DOMContentLoaded", function() {
             iconSize: [40, 40]
         });
             var map = L.map('mapworkout', {
-                scrollWheelZoom: false
+                scrollWheelZoom: false,
+                dragging: !L.Browser.mobile, // Add this line
+                touchZoom: true // And this line
                 });
             map.setView([40.73094208356841, -74.17916164534654], 16);
             L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {

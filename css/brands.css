@@ -1,103 +1,57 @@
-section.brands__carousel.carousel {
-  display: flex;
-  padding: 0 60px;
-  min-height: auto;
-  align-items: center;
-  justify-content: center;
-  max-height: auto;
-  width: 100%;
-}
-
-.carousel__brands {
-  display: flex;
-  max-width: 1200px;
-  position: relative;
-}
-
-.carousel__brands svg {
-  top: 50%;
-  height: 44px;
-  width: 44px;
-  color: #505050;
-  cursor: pointer;
-  font-size: 1.15rem;
-  position: absolute;
-  text-align: center;
-  line-height: 44px;
-  border-radius: 50%;
-  transform: translateY(-50%);
-  transition: transform 0.1s linear;
-}
-
-.carousel__brands svg:active {
-  transform: translateY(-50%) scale(0.9);
-}
-
-.carousel__brands svg:hover {
-  background: #f2f2f2;
-}
-
-.carousel__brands svg:first-child {
-  left: -15px;
-}
-
-.carousel__brands svg:last-child {
-  right: -5px;
-}
-
-.carousel__list {
-  cursor: pointer;
-  display: flex;
-  overflow-x: hidden;
-  scroll-behavior: smooth;
-  align-items: center;
-  gap: 60px;
-  padding-top: 8px;
-  padding-bottom: 8px;
-  height: auto;
-  white-space: nowrap;
-}
-
-.carousel__list.dragging {
-  cursor: grab;
-  scroll-behavior: auto;
-}
-
-.carousel__list img {
-  height: 60%;
+#owl-demo{
   width: 60%;
+  margin: 0 auto;
+}
+#owl-demo .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  vertical-align: middle;
+  text-align: center;
+}
+
+#owl-demo .item img {
+  display: flex;
+  width: 75%; 
+  height: auto;
+  margin: auto;
+  vertical-align:middle;
   object-fit: cover;
-  user-select: none;
+}
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 80px;
+}
+.owl-prev:hover, .owl-next:hover {
+background-color: transparent !important; /* Змініть колір на потрібний */
+}
+.owl-prev {
+  left: 10px;
+
 }
 
-.carousel__list img:last-child {
-  height: 30%;
-  width: 30%;
+.owl-next {
+  right: 10px;
 }
 
-@media screen and (min-width: 991px) {
-  .carousel__list {
-    width: calc((25% + 20px) * 4);
-  }
-  .carousel__list img {
-    width: 25%;
-  }
+.owl-theme .owl-dots {
+  display: none;
 }
+@media screen and (max-width: 991px) {
 
-@media screen and (max-width: 990px) and (min-width: 767px) {
-  .carousel__list {
-    width: calc((50% + 20px) * 2);
+  #owl-demo .item img {
+    width: 100%; /* Змінюємо ширину зображень .item img на бажану в цьому діапазоні */
   }
-  .carousel__list img {
-    width: 50%;
-  }
+
+  
 }
-
-@media screen and (max-width: 766px) {
-  .carousel__list {
-    width: calc(100% + 20px);
+@media screen and (max-width:768px){
+  #owl-demo .item{
+    height: 250px;
   }
-  .carousel__list img {
-    width: 100%;
+  .owl-prev, .owl-next {
+    
+    top: 100px;
   }
 }
