@@ -367,6 +367,7 @@
 @media (max-width: 992px) {
   .header__burger-btn {
     display: block;
+    margin: 10px;
   }
 
   .navbar-wrapper {

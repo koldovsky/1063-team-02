@@ -1,0 +1,65 @@
+<section id="shopping-cart">
+    <button type="button" class="btn custom-btn" data-bs-toggle="modal" data-bs-target="#ShoppingCart"> <!-- Змінено data-bs-target -->
+        <svg width="24" height="30" viewBox="0 0 24 30" fill="none" xmlns="http://www.w3.org/2000/svg" class="svg_2UK ui-cart-icon-color--light_3Gm">
+            <path d="M1 10C1 8.89543 1.89543 8 3 8H21C22.1046 8 23 8.89543 23 10V25C23 27.2091 21.2091 29 19 29H5C2.79086 29 1 27.2091 1 25V10Z" stroke="black" stroke-width="2"></path>
+            <path d="M17 12V6C17 3.23858 14.7614 1 12 1V1C9.23858 1 7 3.23858 7 6V12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </svg>
+    </button>
+  
+  <div class="modal fade" id="ShoppingCart">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title" id="ShoppingCartLabel">Shopping cart</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            <table class="table">
+              <thead>
+                <tr>
+                  <tp>Products</tp>
+                </tr>
+              </thead>
+              <tbody>
+                <!-- Sample row for a product in the shopping cart -->
+                <tr>
+                
+                </tr>
+                <!-- Add more rows for additional products here -->
+              </tbody>
+              
+            </table>
+            
+            <div class="d-flex justify-content-end">
+                <p>Total::</p>
+                <p>&nbsp;</p>
+              </div>
+            
+              <tp>Place an order</tp>
+              <form>
+                  <div class="mb-3">
+                      <label for="name" class="form-cart-label">Name <span class="title-point">*</span></label>
+                      <input type="text" class="form-cart-control" id="name" placeholder="Your name" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="E-mail" class="form-cart-label">Email <span class="title-point">*</span></label>
+                      <input type="E-mail" class="form-cart-control" id="E-mail" placeholder="Your email" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="phone" class="form-cart-label">Phone <span class="title-point">*</span></label>
+                      <input type="tel" class="form-cart-control" id="phone" placeholder="Your phone number" required>
+                  </div>
+                  <div class="mb-3">
+                      <label for="comment" class="form-cart-label">Comment</label>
+                      <textarea class="form-cart-control" id="comment" placeholder="Your comment"></textarea>
+                  </div>
+              </form>
+          </div>
+        <div class="shopping-cart-footer">
+            <button type="button" class="btn custom-background custom-order-btn">Order</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
