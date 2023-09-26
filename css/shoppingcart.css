@@ -1,3 +1,24 @@
+@media (min-width: 320px) {
+    .custom-btn {
+        top: 80px;
+        right: 15px;
+    }
+}
+
+@media (min-width: 991px) {
+    .custom-btn {
+        top: 125px;
+        right: 50px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .custom-btn {
+        top: 65px;
+        right: 25px;
+    }
+}
+
 .custom-background{
     background-color: #f40106;
   }
@@ -11,8 +32,8 @@
     align-items: center;
     cursor: pointer;
     position: fixed; /* Зробити кнопку фіксованою */
-    top: 50px; 
-    right: 25px; 
+    /* top: 50px; 
+    right: 25px;  */
     z-index: 1000; 
     transition: background-color 0.3s;
 }
