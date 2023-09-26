@@ -119,7 +119,7 @@
     font-size: 20px;
     letter-spacing: 1px;
     font-weight: 700;
-    color: var(--ui-dark-accent-color);
+    color: var(--ui-dark-grey-color);
     margin-top: 24px;
 }
 
@@ -166,7 +166,7 @@
     position: relative;
     font-family: var(--font-primary);
     font-weight: 700;
-    color: var(--ui-dark-accent-color);
+    color: var(--ui-dark-grey-color);
     font-size: 12px;
     padding: 10px;
 }
@@ -184,7 +184,7 @@
 
 .card__details-text {
     font-family: var(--font-primary);
-    color: var(--ui-dark-accent-color);
+    color: var(--ui-dark-grey-color);
     size: 20px;
 }
 

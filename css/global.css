@@ -26,7 +26,7 @@
     --ui-dark-grey-color: #717474;
     --ui-black-color: #000;
     --ui-stock-available-color: #61a854;
-    -webkit-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased !important;
 }
 
 img {
