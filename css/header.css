@@ -145,7 +145,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background-color: white;
+  background-color: var(--ui-light-shade-color);
   transition: width 0.3s ease;
   z-index: 1;
 }
@@ -399,6 +399,23 @@
     transform: translateX(100%);
     visibility: visible;
   }
+
+  .menu__list-link::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--ui-dark-shade-color);
+    transition: width 0.3s ease;
+    z-index: 1;
+  }
+
+  .menu__list-link:hover::before {
+    width: 100%;
+  }
+
 }
 
 /*----------Burger__End----------*/
