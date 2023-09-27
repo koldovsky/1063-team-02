@@ -1,6 +1,15 @@
 document.getElementById("burger-btn").addEventListener("click", function () {
+    const mainElement = document.querySelector("main");
+    mainElement.toggleAttribute("hidden");
+    const bodyElement = document.querySelector("body");
+    if (bodyElement.style.overflow === "hidden") {
+        bodyElement.style.overflow = "";
+    } else {
+        bodyElement.style.overflow = "hidden";
+    }
     document.querySelector(".header__navbar").classList.toggle("open");
 });
+
 
 const clockContainer = document.querySelector('.header__clock');
 function updateClock() {
