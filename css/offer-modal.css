@@ -1,9 +1,36 @@
-.offer-modal{
-display: flex;
-flex-direction: column;
-justify-content: center;
+.offer-modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.offer__modal__img{
+
+.modal-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.offer__modal__img {
     width: 34px;
     height: 34px;
+    fill: var(--ui-brand-color);
+}
+
+#exampleModalLabel {
+    font-family: var(--font-second-additional);
+}
+
+.modal-body {
+    display: flex;
+    justify-self: center;
+    margin: auto;
+}
+
+.btn-secondary {
+    width: 210px;
+    height: 36px;
+    margin: auto;
+    background-color: var(--ui-brand-color);
 }
