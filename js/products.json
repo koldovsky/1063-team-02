@@ -1,0 +1,137 @@
+[
+      {
+        "id": 1,
+        "name": "Adidas Black Trainers",
+        "image":"black-shoes.jpeg",
+        "description": "Footwear",
+        "price":60.00
+      },
+      {
+        "id": 2,
+        "name": "Adidas Campus",
+        "image":"shoes3.jpeg",
+        "description": "Footwear",
+        "price":130.00
+      },
+      {
+        "id": 3,
+        "name": "Adidas Cloudfoam Trainers",
+        "image":"adidas-cloudfoam.jfif",
+        "description": "Footwear",
+        "price":60.00
+      },
+      {
+        "id": 4,
+        "name": "Compression Tee",
+        "image":"men-clothes1.jpeg",
+        "description": "Apparel",
+        "price":33.00
+      },
+      {
+        "id": 5,
+        "name": "Adidas Torsion 2000",
+        "image":"black-sportshoes.jpeg",
+        "description": "Footwear",
+        "price":200.00
+      },
+      {
+        "id": 6,
+        "name": "Nike Airmax Running Shoes",
+        "image":"shoes1.jpeg",
+        "description": "Footwear",
+        "price":120.00
+      },
+      {
+        "id": 7,
+        "name": "Nike Classic Polo T-Shirt",
+        "image":"nike-classic.jfif",
+        "description": "Apparel",
+        "price":23.00
+      },
+      {
+        "id": 8,
+        "name": "Nike Winter Jacket in Blue",
+        "image":"blue-jacket.jpeg",
+        "description": "Apparel",
+        "price":85.00
+      },
+      {
+        "id": 9,
+        "name": "Puma Basket Shoes",
+        "image":"shoes2.jpeg",
+        "description": "Footwear",
+        "price":140.00
+      },
+      {
+        "id": 10,
+        "name": "Puma Essential Tank Top",
+        "image":"puma-essential.jfif",
+        "description": "Apparel",
+        "price":43.00
+      },
+      {
+        "id": 11,
+        "name": "Puma Fitness Shoes in Grey",
+        "image":"puma-fitness.jfif",
+        "description": "Footwear",
+        "price":60.00
+      },
+      {
+        "id": 12,
+        "name": "Puma Sports Bra",
+        "image":"women-clothes1.jpeg",
+        "description": "Apparel",
+        "price":12.00
+      },
+      {
+        "id": 13,
+        "name": "Puma Textile Running Shoes",
+        "image":"cyan-shoes.jpeg",
+        "description": "Footwear",
+        "price":62.00
+      },
+      {
+          "id": 14,
+          "name": "Quicksilver Tech T-Shirt",
+          "image":"men-clothes2.jpeg",
+          "description": "Apparel",
+          "price":21.00
+      },
+      {
+        "id":15,
+        "name":"Quicksilver Workout Top",
+        "image":"women-clothes2.jpeg",
+        "description":"Apparel",
+        "price":12.00
+      },
+      {
+        "id":16,
+        "name":"Reebok Fitness Jacket",
+        "image":"men-clothes3.jpeg",
+        "description":"Apparel",
+        "price":52.00
+      },
+      {
+        "id":17,
+        "name":"Reebok Long Sleeve Top",
+        "image":"women-clothes3.jpeg",
+        "description":"Apparel",
+        "price":18.00
+      },
+      {
+        "id":18,
+        "name":"Reebok Red Duster",
+        "image":"red-jacket.jpeg",
+        "description":"Apparel",
+        "price":60.00
+      },
+      {
+        "id":19,
+        "name":"Reebok Workout Shorts",
+        "image":"reebok-workout.jfif",
+        "description":"Apparel",
+        "price":25.00
+      }
+    ]
+  
+  
