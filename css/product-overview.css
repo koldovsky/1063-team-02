@@ -136,12 +136,41 @@
 }
 
 .card__amount {
+    display: flex;
+    flex-direction: row;
     padding: 8px 15px;
-    max-width: 128px;
+    max-width: 68px;
     border-radius: 3px;
     box-shadow: inset 0 1px 0 rgba(35,33,54,.08);
     outline: 1px solid #c5cbd6;
     margin-right: 16px;
+}
+
+.card__amount-value {
+    border: 0;
+    width: calc(100% - 10px);
+}
+
+.card__amount-arrows {
+    position: relative;
+    height: 100%;
+}
+
+.card__amount-arrow:nth-child(1) {
+    position: absolute;
+    top: 3px;
+    right: -10px;
+}
+
+.card__amount-arrow:nth-child(2) {
+    position: absolute;
+    bottom: 3px;
+    right: -10px;
+    transform: rotate(180deg);
+}
+
+.card__amount-arrow:hover {
+    cursor: pointer;
 }
 
 .card__to-cart {

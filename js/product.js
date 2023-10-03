@@ -1,4 +1,4 @@
-document.addEventListener('partialsLoaded', () => {
-    // import('./header.js');
-    import('./product-load.js');
+document.addEventListener("partialsLoaded", () => {
+  // import('./header.js');
+  import("./product-overview.js");
 });

@@ -25,15 +25,6 @@
   }
 
   function renderProducts(products) {
-    //   const productsContainer = document.querySelector('.product-list');
-    //   for (const product of products) {
-    //     productsContainer.innerHTML += `
-    //       <article>
-    //          <h3>${product.title}</h3>
-    //          <a class="info-link" href="product-info.html" data-id=${product.id}>Info</a>
-    //       </article>
-    //     `;
-    //   }
     document
       .querySelectorAll(".view-product")
       .forEach((link) => link.addEventListener("click", productInfoClick));
