@@ -18,7 +18,11 @@
     font-weight: 400;
     justify-content: center;
 }
-
+@media(min-width: 800px){
+    .blog__article__title {
+font-size: 52px;
+}
+}
 .blog__article__title__dot {
     color: var(--ui-brand-color);
 }
