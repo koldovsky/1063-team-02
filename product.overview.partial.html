@@ -1,43 +1,46 @@
 <section class="product-overview">
-    <div class="product-overview__back">
-        <a href="index.html" class="product-overview__back-line">Store homepage</a>
-    </div>
-    <div class="product-overview__card card">
-        <div class="card__slider">
-            <div class="card__slide">
-                <img src="img/goods/blue-jacket.jpeg" alt="NIKE WINTER JACKET IN BLUE">
-            </div>
-
-            <button type="button"></button>
-            <button type="button"></button>
+    <div class="product-overview__container">
+        <div class="product-overview__back">
+            <a href="index.html" class="product-overview__back-line">Store homepage</a>
         </div>
-        <div class="card__details">
-            <p class="card__status">In stock</p>
-            <h3 class="card__title">NIKE WINTER JACKET IN BLUE (1332)</h3>
-            <p class="card__product-code">Product code 27</p>
-            <p class="card__price">$85.00</p>
-            <div class="card__line"></div>
-            <input type="number" name="amount" class="card__amount">
-            <button class="card__to-cart" type="button">Add to cart</button>
-            <div class="card__line">
-                <p class="card__line-selector">DESCRIPTION</p>
+        <div class="product-overview__card card">
+            <div class="card__slider">
+                <div class="card__slide">
+                    <img src="img/goods/blue-jacket.jpeg" class="card__slide-img" alt="NIKE WINTER JACKET IN BLUE">
+                </div>
+                
+                <div class="card__slider-controls">
+                    <button class="card__slider__button--left" type="button"><svg class="arrow-svg_1j4" viewBox="0 0 40 30"><defs><path d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z" id="a-1693589529727"></path></defs><use fill-rule="nonzero" opacity=".8" xlink:href="#a-1693589529727"></use></svg></button>
+                    <button class="card__slider__button--right" type="button"><svg class="arrow-svg_1j4" viewBox="0 0 40 30"><defs><path d="M19.533 15l-9.1-9.45c-.577-.6-.577-1.5 0-2.1.578-.6 1.445-.6 2.023 0l10.11 10.5c.29.3.434.75.434 1.05 0 .45-.144.75-.433 1.05l-10.111 10.5c-.29.3-.578.45-1.012.45-.433 0-.722-.15-1.01-.45-.578-.6-.578-1.5 0-2.1l9.1-9.45z" id="a-1693589529727"></path></defs><use fill-rule="nonzero" opacity=".8" xlink:href="#a-1693589529727"></use></svg></button>
+                </div>
+
+                <div class="product-overview__carousel carousel">
+                    <div class="carousel__track-container">
+                        <ul class="carousel__list">
+                            <li class="carousel__slide">
+                                <img src="img/goods/blue-jacket.jpeg" class="carousel__slide-img" alt="NIKE WINTER JACKET IN BLUE">
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <p class="card__details">For those who prefer a sporty style every day, this jacket will be a real
-                discovery. The ultra-modern waterproof fabric will keep you warm and comfortable. And its futuristic
-                design is worth a special mention. </p>
-        </div>
-    </div>
-    <div class="product-overview__carousel carousel">
-        <div class="carousel__track-container">
-            <button class="carousel__button carousel__button-left" type="button"></button>
-
-            <ul class="carousel__list">
-                <li class="carousel__slide">
-                    <img src="img/goods/blue-jacket.jpeg" alt="NIKE WINTER JACKET IN BLUE">
-                </li>
-            </ul>
-
-            <button class="carousel__button carousel__button-right" type="button"></button>
+            <div class="card__details">
+                <p class="card__status">In stock</p>
+                <h3 class="card__title">NIKE WINTER JACKET IN BLUE (1332)</h3>
+                <p class="card__product-code">Product code 27</p>
+                <p class="card__price">$85,00</p>
+                <div class="card__line"></div>
+                <div class="card__order">
+                    <input type="number" name="amount" class="card__amount">
+                    <button class="add-to-cart__button card__to-cart" type="button">Add to cart</button>
+                </div>
+                <div class="card__selector">
+                    <p class="card__selector-text">DESCRIPTION</p>
+                </div>
+                <p class="card__details-text">For those who prefer a sporty style every day, this jacket will be a real
+                    discovery. The ultra-modern waterproof fabric will keep you warm and comfortable. And its futuristic
+                    design is worth a special mention. </p>
+            </div>
         </div>
     </div>
 </section>

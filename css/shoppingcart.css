@@ -1,0 +1,136 @@
+@media (min-width: 320px) {
+    .custom-btn {
+        top: 80px;
+        right: 15px;
+    }
+}
+
+@media (min-width: 991px) {
+    .custom-btn {
+        top: 125px;
+        right: 50px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .custom-btn {
+        top: 65px;
+        right: 25px;
+    }
+}
+
+.custom-background{
+    background-color: #f40106;
+  }
+  .custom-btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    background-color: #fff; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    position: fixed; /* Зробити кнопку фіксованою */
+    /* top: 50px; 
+    right: 25px;  */
+    z-index: 1000; 
+    transition: background-color 0.3s;
+}
+
+.custom-btn:hover {
+  background-color: #fff; /* Фон кнопки при наведенні (тут ви можете встановити бажаний колір) */
+}
+
+  .custom-btn svg {
+    width: 32px; 
+    height: 32px;
+  }
+  .custom-order-btn {
+    width: 100px;
+    height: 50px; 
+    border-radius: 0; 
+    transition: background-color 0.3s; 
+  }
+  
+  .custom-order-btn:hover {
+    background-color: #333;
+  }
+  .custom-order-btn,
+  .custom-order-btn:focus,
+  .custom-order-btn:active,
+  .custom-order-btn:hover {
+      color: #fff !important;
+  }
+  .custom-body{
+    border-radius: 0;
+  }
+  .modal {
+    border-radius: 0;
+}
+
+.modal-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-title {
+    font-size: 16px;
+    font-family: var(--font-third-additional);
+}
+
+.modal-body tp{
+    font-size:11px;
+    font-family: var(--font-third-additional);
+    color: var(--ui-dark-grey-color);
+}
+.btn-close{
+    color:#000
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+}
+
+.d-flex {
+    display: flex !important;
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+textarea::placeholder{
+    font-size: 12px;
+}
+.justify-content-end {
+    justify-content: flex-end !important;
+}
+
+.form-cart-label {
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form-cart-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.shopping-cart-footer {
+    padding: 1rem;
+    display:flex;
+    justify-content: center;
+}
+
