@@ -1,0 +1,44 @@
+.discounts {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    padding-right: 32px;
+    padding-left: 32px;
+   display: block;
+
+}
+
+.discounts__image-container {
+    padding-left: 40px;
+    width: 414px;
+    
+    
+    display: block;
+    
+    
+
+}
+
+.discounts__content {
+    background-color: #222323;
+   
+
+}
+
+.discounts__text-title {
+    color: white;
+
+}
+
+.discounts__text__link {
+    color: white;
+    font-size: 14px;
+
+}
+
+.discounts h2 {
+    font-size: 33px;
+}
+
+.discounts a {
+    font-size: 14px;
+}
