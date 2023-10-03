@@ -7,8 +7,8 @@ function showInfo() {
     product[0].description;
   document.querySelector(".card__product-code").innerHTML = "Product code " + product[0].id;
   document.querySelector(".card__price").innerHTML = "$ " + product[0].price.toFixed(2).replace('.',',');
-  document.querySelector(".carousel__slide-img").src = "img/productlist/" + product[0].image;
-  document.querySelector(".card__slide-img").src = "img/productlist/" + product[0].image;
+  document.querySelector(".carousel__slide-img").src = "img/product-list/" + product[0].image;
+  document.querySelector(".card__slide-img").src = "img/product-list/" + product[0].image;
 }
 
 showInfo();
