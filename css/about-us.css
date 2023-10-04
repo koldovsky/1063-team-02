@@ -2,7 +2,7 @@
     height: 900px;
     background-color: var(--ui-dark-shade-color);
     display: flex;
-    flex-direction: column;
+    ?
 }
 
 .about-us__image-container {

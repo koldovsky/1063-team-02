@@ -1,44 +1,45 @@
 .discounts {
-    padding-top: 35px;
-    padding-bottom: 25px;
-    padding-right: 32px;
-    padding-left: 32px;
-   display: block;
+    display: flex;
+}
 
+.discounts__conteiner-item {
+    text-align: center;
 }
 
 .discounts__image-container {
-    padding-left: 40px;
-    width: 414px;
-    
-    
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 50px;
+    width: 414.4px;
     display: block;
-    
-    
+}
+
+.discount__image {
+    padding-top: 35px;
+    padding-bottom: 25px;
+    z-index: 1;
 
 }
 
 .discounts__content {
-    background-color: #222323;
-   
-
-}
+    background-color: rgba(34, 35, 35, 0.89);
+    line-height: 27.2px;
+    width: 372.95px;
+    z-index: 2;
+} 
 
 .discounts__text-title {
     color: white;
-
+    font-family: "Bebas Neue", cursive;
+    text-align: center;
+    font-weight: 400;
+    line-height: 35.1px;
 }
 
 .discounts__text__link {
     color: white;
+    font-weight: 700;
     font-size: 14px;
-
-}
-
-.discounts h2 {
-    font-size: 33px;
-}
-
-.discounts a {
-    font-size: 14px;
+    font-family: "PT Sans", sans-serif;
+    line-height: 25.2px;
 }
