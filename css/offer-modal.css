@@ -5,14 +5,14 @@
     align-items: center;
 }
 
-.modal-header {
+.offer-modal .modal-header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.offer__modal__img {
+ .offer__modal__img {
     width: 34px;
     height: 34px;
     fill: var(--ui-brand-color);
@@ -22,7 +22,7 @@
     font-family: var(--font-second-additional);
 }
 
-.modal-body {
+.offer-modal .modal-body {
     display: flex;
     justify-self: center;
     margin: auto;

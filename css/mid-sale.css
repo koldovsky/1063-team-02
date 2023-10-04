@@ -20,6 +20,7 @@
     justify-content: center;
     flex-direction: column;
     margin: auto;
+    padding: 0 20px;
 }
 
 .sale__desc-p {
@@ -82,6 +83,10 @@
 
     .subtitle {
         margin-bottom: 40px;
+    }
+
+    .sale__items{
+        margin: auto;
     }
 
     .sale__item {
@@ -151,6 +156,14 @@
     .sale__item {
         flex-basis: 20%;
         padding: 0 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    .sale__item-button {
+        align-self: flex-start;
     }
 
     .sale__item-large {

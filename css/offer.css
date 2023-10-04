@@ -1,6 +1,7 @@
 .offer {
     display: flex;
 }
+
 .offer__wrapper {
     display: flex;
     flex-direction: column;
@@ -11,6 +12,7 @@
     justify-content: end;
     padding: 35px;
 }
+
 @media (min-width:800px) {
     .offer__wrapper {
         height: 215px;
@@ -21,6 +23,7 @@
         background-position: center;
     }
 }
+
 .offer__wrapper__label {
     height: 67.5px;
     display: flex;
@@ -29,11 +32,13 @@
     margin: 30px;
     align-items: center;
 }
+
 @media (min-width:800px) {
     .offer__wrapper__label {
         width: 450px;
     }
 }
+
 .offer__wrapper__label__svg {
     width: 50px;
     height: 50px;
@@ -41,6 +46,7 @@
     margin: 15px;
     flex-shrink: 0;
 }
+
 .offer__wrapper__label__text {
     color: var(--ui-darc-shade-color);
     font-family: var(--font-third-additional);
@@ -49,11 +55,13 @@
     align-items: center;
     justify-content: center;
 }
+
 .offer__wrapper__label__text__procent {
     color: var(--ui-brand-color);
     font-size: 21px;
     font-weight: 700;
 }
+
 .offer__wrapper__form {
     display: flex;
     flex-direction: column;
@@ -66,6 +74,7 @@
         width: 270px;
     }
 }
+
 #email {
     display: block;
     border: none;
@@ -74,6 +83,7 @@
     --ui-button-color: rgba(34, 35, 35, 0.12);
     background-color: var(--ui-button-color);
 }
+
 .offer__bottom__subscribe {
     display: block;
     width: 90%;
@@ -86,6 +96,10 @@
     margin-top: 15px;
     cursor: pointer;
 }
+
 .offer__bottom__subscribe:hover {
     background-color: var(--ui-dark-shade-color);
+}
+.offer__wrapper__form__status{
+    color: var(--ui-brand-color);
 }
