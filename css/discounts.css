@@ -1,45 +1,41 @@
-.discounts {
+.discounts{
     display: flex;
+    flex-direction: column;
 }
 
-.discounts__conteiner-item {
-    text-align: center;
+.discounts__list-item{
+    box-sizing: border-box;
+    padding-bottom: 25px;
+    padding-top: 35px;
+    padding-left: 24px;
+    padding-right: 24px;
 }
-
-.discounts__image-container {
+.discount__image{
+    max-width: 100%;
+    height: 100%;
+}
+.discounts__content{
+    display:block;
+    
+    background-color: rgba(34, 35, 35, 0.89);
+    z-index: 2;
+    padding-bottom: 5%;
+    margin-top: 20px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-top: 50px;
-    width: 414.4px;
-    display: block;
-}
-
-.discount__image {
-    padding-top: 35px;
-    padding-bottom: 25px;
-    z-index: 1;
-
-}
-
-.discounts__content {
-    background-color: rgba(34, 35, 35, 0.89);
-    line-height: 27.2px;
-    width: 372.95px;
-    z-index: 2;
-} 
-
-.discounts__text-title {
-    color: white;
-    font-family: "Bebas Neue", cursive;
     text-align: center;
-    font-weight: 400;
-    line-height: 35.1px;
 }
-
-.discounts__text__link {
-    color: white;
-    font-weight: 700;
+.discounts__text-title{
+    color: var(--ui-light-shade-color);
+    font-size: 30px;
+    text-align: center;
+    font-family:var(--font-secondary);
+    font-weight: 400;
+}
+.discounts__text__link{
+    color: var(--ui-light-shade-color);
+    font-family:var(--font-primary);
     font-size: 14px;
-    font-family: "PT Sans", sans-serif;
-    line-height: 25.2px;
+    font-weight: bold;
+    text-decoration: none;
 }
