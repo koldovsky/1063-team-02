@@ -1,8 +1,7 @@
 .about-us {
     height: 900px;
     background-color: var(--ui-dark-shade-color);
-    display: flex;
-    ?
+    display: block;
 }
 
 .about-us__image-container {
@@ -58,12 +57,13 @@
     .about-us{
         height: 700px;
         width: 100%;
+        display: flex;
         flex-direction: row;
     }
     .about-us__image-container {
         height: 100%;
         width: 50%;
-        overflow: hidden;
+        /* overflow: hidden; */
     }
     .about-us .content-textblock {
         max-width: 50%;
@@ -78,9 +78,6 @@
         height: 3px;
         width: 100px;
         background-color: var(--ui-brand-color);
-    }
-    .about-us__text {
-        /* margin-top: auto; */
     }
     .about-us h2 {
         font-size: 3.3em;
