@@ -1,0 +1,61 @@
+.deal__content {
+    padding: 100px 30px 100px 30px;
+    background-color: var(--ui-dark-shade-color);
+    display: block;
+}
+
+.deal__image-container {
+    background-image: url(../img/deal/deal_training.jpg);
+    border-image-repeat: stretch;
+    background-size: cover;
+    height: 40%;
+    overflow: hidden;
+}
+
+.deal__title {
+    box-sizing: border-box;
+    color: var(--ui-light-shade-color);
+    font-family: var(--font-secondary);
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 62px;
+    text-align: left;
+}
+
+.deal__span {
+    color: var(--ui-brand-color);
+    font-weight: bold;
+    font-size: 42px;
+}
+
+.deal__description {
+    font-family: var(--font-third-additional);
+    color: var(--ui-light-shade-color);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 27.2px;
+}
+
+.deal__text-highlight {
+    text-decoration: line-through;
+    font-weight: 700;
+    line-height: 39.1px;
+    font-size: 23px;
+}
+
+.deal__text {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: var(--font-third-additional);
+    color: var(--ui-light-shade-color);
+    line-height: 30px;
+}
+
+.deal__link {
+    color: var(--ui-light-shade-color);
+    font-family: var(--font-third-additional);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19.99px;
+    text-align: center;
+}
