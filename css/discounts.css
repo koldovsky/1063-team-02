@@ -48,8 +48,9 @@
 }
 
 .discounts__image-container {
-    position: relative;
+    position:relative ;
     display: inline-block;
+    
 }
 
 .discounts__text-overlay {
